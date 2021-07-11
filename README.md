@@ -4,51 +4,35 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  my gatsby starter
 </h1>
 
-## 🚀 Quick start
+## about
+- 個人用に作成したGatsby.jsのスターターです
+- TypeScript, emotion, tailwindcssに対応しています
 
-1.  **Create a Gatsby site.**
+## how to use
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+1. ページの右上にある **[Fork]** をクリックします.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- ***フォークを同期させる***
 
-2.  **Start developing.**
+2. リポジトリの **自分のフォーク** に移動します.
 
-    Navigate into your new site’s directory and start it up.
+3. ァイルのリストの上にある **Code（コード）** をクリックしてください.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+4. HTTPSを使ってリポジトリをクローンするには, "Clone with HTTPS（HTTPSでクローン）" の下で, **copyマーク** をクリックしてください. OrganizationのSSH認証局が発行した証明書を含むSSHキーを使ってリポジトリをクローンするには, **Use SSH（SSHを利用）** をクリックし, 続いてをクリックしてください. GitHub CLIを使ってリポジトリをクローンするには, **Use GitHub CLI（GitHub CLIを利用）** をクリックし, 続いて **copyマーク** をクリックしてください.
 
-3.  **Open the code and start customizing!**
+5. Bashを開いてください.
 
-    Your site is now running at http://localhost:8000!
+6. カレントワーキングディレクトリを, ディレクトリをクローンしたい場所に変更します.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+7. 次のようにクローンします.
+```
+$ git clone [コピーしたURL]
+```
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+6. パッケージをインストールします.
+```
+$ yarn install
+```
