@@ -11,7 +11,9 @@
     "emitDecoratorMetadata": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "types": ["@emotion/react"],
+    "jsxImportSource": "@emotion/react"
   }
 }
 // {
