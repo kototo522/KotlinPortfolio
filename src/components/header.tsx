@@ -7,11 +7,14 @@ const container = css`
     position: sticky;
     top: 5px;
     display: flex;
+    height: 0;
 `;
 
 const headerButton = css`
     padding-right: 36px;
     line-height: 80px;
+    color: white;
+    font-size: 16px;
     &:first-child{
         margin-right:auto;
         padding-left: 36px;
