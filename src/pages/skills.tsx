@@ -1,4 +1,3 @@
-import React from "react";
 import { css } from "@emotion/react";
 
 const container = css`
@@ -10,11 +9,11 @@ const container = css`
 const group = css`
     display: flex;
     justify-content: center;
-    margin: 80px 180px;
+    margin: 20px 180px;
     flex-direction: column;
     width: 184px;
     @media (max-width: 1100px){
-        margin: 70px 50px;
+        margin: 20px 80px;
     }
 `;
 

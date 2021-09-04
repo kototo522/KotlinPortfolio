@@ -1,3 +1,4 @@
+import React from "react";
 import { css } from "@emotion/react";
 
 const container = css`
@@ -9,12 +10,13 @@ const container = css`
 
 const headerButton = css`
     padding-right: 36px;
-    line-height: 80px;
+    line-height: 90px;
     color: white;
     font-size: 16px;
     &:first-child{
+        height: 80px;
         margin-right:auto;
-        padding-left: 36px;
+        padding: 5px 0 0 10px;
     }
     @media (max-width: 420px) {
         padding-right: 24px;
@@ -25,7 +27,7 @@ const headerButton = css`
 const header = () => {
     return (
         <header css={container}>
-            <button css={headerButton}>Logo</button>
+            <img css={headerButton} src="images/kotlinLogo.webp" />
             <button css={headerButton}>Profile</button>
             <button css={headerButton}>Skills</button>
             <button css={headerButton}>Works</button>
