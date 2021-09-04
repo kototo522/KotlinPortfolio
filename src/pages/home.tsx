@@ -7,7 +7,7 @@ const background = css`
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-image: url("images/strawberry.webp");
 `;
 
 
