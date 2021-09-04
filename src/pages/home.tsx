@@ -1,6 +1,3 @@
-import React from "react"
-import "twin.macro";
-import "twin.macro";
 import { css } from "@emotion/react";
 
 const background = css`

@@ -1,25 +1,10 @@
 import React from "react";
 import Kotlin from "../components/kotlin";
-import "twin.macro";
-import "twin.macro";
 import { css } from "@emotion/react";
 
 const container = css`
     display: flex;
     justify-content: center;
-`;
-
-const title = css`
-    font-weight: lighter;
-    text-align: center;
-    text-decoration:underline;
-    text-decoration-color:#9C1919;
-    margin: 80px 0 60px 0;
-    font-size: 34px;
-    @media (max-width: 700px) {
-        margin: 48px 0 30px 0;
-        font-size: 24px;
-    }
 `;
 
 const profileCard = css`
@@ -43,15 +28,29 @@ const text = css`
 `;
 
 const profile = () => {
+    const myBirthDay = {
+        year: 2004,
+        month: 5,
+        date: 22
+    };
+    const birthDate = new Date(myBirthDay.year, myBirthDay.month - 1, myBirthDay.date);
+    const y2 = birthDate.getFullYear().toString().padStart(4, '0');
+    const m2 = (birthDate.getMonth() + 1).toString().padStart(2, '0');
+    const d2 = birthDate.getDate().toString().padStart(2, '0');
+    const today = new Date();
+    const y1 = today.getFullYear().toString().padStart(4, '0');
+    const m1 = (today.getMonth() + 1).toString().padStart(2, '0');
+    const d1 = today.getDate().toString().padStart(2, '0');
+    const age = Math.floor((Number(y1 + m1 + d1) - Number(y2 + m2 + d2)) / 10000);
+
     return (
         <div>
-            <h1 css={title}>Profile</h1>
             <div css={container}>
                 <div css={profileCard}>
                     <Kotlin />
                     <p css={text}>
                         Name: Kotoha Yoshimoto<br />
-                        Age: 17<br />
+                        Age: {age}<br />
                         Birthday: 2004/5/22<br />
                         From: Fukuoka<br />
                         Belongs: NITKIT<br />

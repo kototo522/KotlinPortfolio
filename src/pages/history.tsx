@@ -1,20 +1,4 @@
-import React from "react";
-import "twin.macro";
-import "twin.macro";
 import { css } from "@emotion/react";
-
-const title = css`
-    font-weight: lighter;
-    text-align: center;
-    text-decoration:underline;
-    text-decoration-color:#9C1919;
-    margin: 80px 0 60px 0;
-    font-size: 34px;
-    @media (max-width: 700px) {
-        margin: 48px 0 30px 0;
-        font-size: 24px;
-    }
-`;
 
 const timelineBox = css`
     display: flex;
@@ -48,7 +32,6 @@ const point = css`
 const history = () => {
     return (
         <div>
-            <h1 css={title}>History</h1>
             <div css={timelineBox}>
                 <ul css={timeline}>
                     <li css={point}>
