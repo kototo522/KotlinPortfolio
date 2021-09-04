@@ -5,6 +5,7 @@ import Home from "./home";
 import Profile from "./profile";
 import History from "./history";
 import Skills from "./skills";
+import Technology from "../components/technology";
 import Works from "./works";
 import Footer from "../components/footer";
 
@@ -15,6 +16,7 @@ const title = css`
     text-decoration-color:#9C1919;
     margin: 80px 0 60px 0;
     font-size: 34px;
+    font-weight: bold;
     @media (max-width: 700px) {
         margin: 48px 0 30px 0;
         font-size: 24px;
@@ -32,6 +34,7 @@ const index = () => {
       <History />
       <h1 css={title}>Skills</h1>
       <Skills />
+      <Technology />
       <h1 css={title}>Works</h1>
       <Works />
       <Footer />
