@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header";
 import Home from "./home";
 import Profile from "./profile";
+import History from "./history";
 import Skills from "./skills";
 import Works from "./works";
 import Footer from "../components/footer";
@@ -12,6 +13,7 @@ const index = () => {
       <Header />
       <Home />
       <Profile />
+      <History />
       <Skills />
       <Works />
       <Footer />
