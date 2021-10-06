@@ -23,7 +23,7 @@ const card = css`
     width: 300px;
     margin: 50px 30px 20px 40px;
     border-radius: 10px;
-    border: 1px solid #494544;;
+    border: 1px solid #494544;
     background-color: rgba(255,244,219,0.1);
 `;
 
