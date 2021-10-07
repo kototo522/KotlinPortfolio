@@ -178,7 +178,14 @@ const Technology = () => {
                 <div css={card}>
                     <h2 css={cardTitle}>styled-components</h2>
                     <p css={cardText}>
-                        コンポーネント単位でcssが管理されているので見たときにスッキリするので好きです。このポートフォリオ作成にも使いました。
+                        コンポーネント単位でcssが管理されているので見たときにスッキリするので好きです。
+                    </p>
+                    <div css={rote3} />
+                </div>
+                <div css={card}>
+                    <h2 css={cardTitle}>emotion</h2>
+                    <p css={cardText}>
+                        コンポーネント単位でcssが管理されていて一目でコンテンツ区分要素がわかるのが好きです。このポートフォリオ作成にも使いました。
                     </p>
                     <div css={rote3} />
                 </div>

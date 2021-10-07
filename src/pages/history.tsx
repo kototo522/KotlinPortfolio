@@ -35,13 +35,22 @@ const history = () => {
             <div css={timelineBox}>
                 <ul css={timeline}>
                     <li css={point}>
-                        <div css={timelineContent}>STEP1の内容をここに記入。<br />aaaa</div >
+                        <div css={timelineContent}>2020年4月<br />北九州工業高等専門学校入学</div >
                     </li >
                     <li css={point}>
-                        <div css={timelineContent}>STEP2の内容をここに記入。<br />aaaa</div >
+                        <div css={timelineContent}>2020年7月<br />コンピュータ研究部に入部</div >
                     </li >
                     <li css={point}>
-                        <div css={timelineContent}>STEP3の内容をここに記入。<br />aaaa</div >
+                        <div css={timelineContent}>2020年12月<br />ハックツハッカソン、プレシオ杯に参加</div >
+                    </li >
+                    <li css={point}>
+                        <div css={timelineContent}>2021年6月<br />ハックツハッカソン、ステゴカップに参加</div >
+                    </li >
+                    <li css={point}>
+                        <div css={timelineContent}>2021年6月<br />ハックツハッカソン大反省会LT~ステゴカップ編~で登壇</div >
+                    </li >
+                    <li css={point}>
+                        <div css={timelineContent}>2020年9月<br />ハックツハッカソン、スピノカップに参加</div >
                     </li >
                 </ul >
             </div>
