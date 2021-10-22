@@ -26,8 +26,8 @@ const card = css`
     border: 1px solid #494544;
     background-color: rgba(255,244,219,0.1);
     &:hover{
-        box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
-        transition : .3s;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+        transition : .1s;
     }
 `;
 

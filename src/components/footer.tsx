@@ -16,6 +16,8 @@ const text = css`
     font-size: 14px;
     text-align: center;
     color: white;
+    background-color: transparent;
+    border: none;
     &:last-child{
         color: black;
         margin: 0 0;

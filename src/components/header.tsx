@@ -13,6 +13,8 @@ const headerButton = css`
     line-height: 90px;
     color: white;
     font-size: 16px;
+    background-color: transparent;
+    border: none;
     &:first-child{
         height: 80px;
         margin-right:auto;
