@@ -58,8 +58,8 @@ const profile = () => {
     const d1 = today.getDate().toString().padStart(2, '0');
     const age = Math.floor((Number(y1 + m1 + d1) - Number(y2 + m2 + d2)) / 10000);
     const [ref, inView] = useInView({
-        rootMargin: '-100px', // ref要素が現れてから50px過ぎたら
-        triggerOnce: true, // 最初の一度だけ実行
+        rootMargin: '-100px',
+        triggerOnce: true,
     })
 
     return (

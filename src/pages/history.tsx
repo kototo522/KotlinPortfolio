@@ -15,7 +15,7 @@ const timelineContent = css`
 
 const point = css`
     list-style: none;
-    margin-left: -7px;
+    margin-left: -46px;
     &::before {
         content: '';
         height:  10px;
