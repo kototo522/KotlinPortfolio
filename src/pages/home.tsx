@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css, keyframes } from "@emotion/react";
 
 const background = css`
     display: flex;
@@ -10,10 +10,17 @@ const background = css`
     background-image: url("images/strawberry.webp");
 `;
 
+const titleAnimetion = keyframes`
+  100% {
+      opacity: 1;
+  }
+`;
 
 const title = css`
     font-size: 80px;
     color: white;
+    opacity: 0;
+    animation: ${titleAnimetion} 0.5s ease 1s 1 normal running forwards;
     @media (max-width: 570px) {
         font-size: 36px;
     }
@@ -22,6 +29,8 @@ const title = css`
 const text = css`
     font-size: 24px;
     color: white;
+    opacity: 0;
+    animation: ${titleAnimetion} 0.5s ease 1.5s 1 normal running forwards;
 `;
 
 const home = () => {
