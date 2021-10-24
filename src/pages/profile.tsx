@@ -66,7 +66,7 @@ const profile = () => {
         <div>
             <div ref={ref} css={container}>
                 {inView && (
-                    <div ref={ref} css={profileCard}>
+                    <div css={profileCard}>
                         <Kotlin />
                         <p css={text}>
                             Name: Kotoha Yoshimoto<br />

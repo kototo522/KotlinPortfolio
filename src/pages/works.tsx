@@ -14,12 +14,6 @@ const second = css`
   white-space: normal;
 `;
 
-const container = css`
-  display: flex;
-  justify-content: center;
-  margin: 0 30px;
-`;
-
 const works = () => {
   return (
     <div css={first}>
