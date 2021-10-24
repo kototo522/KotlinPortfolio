@@ -38,7 +38,7 @@ const text = css`
 
 const skills = () => {
     return (
-        <div css={container} id="skills">
+        <div css={container}>
             <div>
                 <div css={group}>
                     <img css={picture} src="images/compute.webp" />

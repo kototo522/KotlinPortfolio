@@ -28,14 +28,14 @@ const index = () => {
     <div>
       <Header />
       <Home />
-      <h1 css={title}>Profile</h1>
+      <h1 id="profile" css={title}>Profile</h1>
       <Profile />
       <h1 css={title}>History</h1>
       <History />
-      <h1 css={title}>Skills</h1>
+      <h1 id="skills" css={title}>Skills</h1>
       <Skills />
       <Technology />
-      <h1 css={title}>Works</h1>
+      <h1 id="works" css={title}>Works</h1>
       <Works />
       <Footer />
     </div>

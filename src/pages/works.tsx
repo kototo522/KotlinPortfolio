@@ -16,7 +16,7 @@ const second = css`
 
 const works = () => {
   return (
-    <div css={first} id="works">
+    <div css={first}>
       <div css={second}>
         <Card />
       </div>

@@ -63,7 +63,7 @@ const profile = () => {
     })
 
     return (
-        <div id="profile">
+        <div>
             <div ref={ref} css={container}>
                 {inView && (
                     <div css={profileCard}>
