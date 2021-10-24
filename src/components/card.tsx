@@ -24,13 +24,13 @@ const text = css`
 `;
 
 const card = () => {
-    return (
-        <div css={container}>
-            <div css={worksCard}>
-                <div css={picture} />
-                <p css={text}>title<br />text</p>
-            </div>
-        </div>
-    );
+  return (
+    <div css={container}>
+      <div css={worksCard}>
+        <div css={picture} />
+        <p css={text}>title<br />text</p>
+      </div>
+    </div>
+  );
 };
 export default card;
