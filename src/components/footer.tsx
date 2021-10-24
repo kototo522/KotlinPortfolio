@@ -16,8 +16,7 @@ const text = css`
     font-size: 14px;
     text-align: center;
     color: white;
-    background-color: transparent;
-    border: none;
+    text-decoration: none;
     &:last-child{
         color: black;
         margin: 0 0;
@@ -34,6 +33,7 @@ const box = css`
     width: 120px;
     margin: 0 40px 30px auto;
     background-color: white;
+    text-decoration: none;
     @media (max-width: 700px) {
         height: 75px;
         width: 90px;
@@ -53,13 +53,13 @@ const arrow = css`
 const footer = () => {
     return (
         <footer css={container}>
-            <button css={text}>Profile</button>
-            <button css={text}>Skills</button>
-            <button css={text}>Works</button>
-            <button css={box}>
+            <a href="#profile" css={text}>Profile</a>
+            <a href="#skills" css={text}>Skills</a>
+            <a href="#works" css={text}>Works</a>
+            <a href="#" css={box}>
                 <div css={arrow} />
                 <p css={text}>PAGE TOP</p>
-            </button>
+            </a>
         </footer>
     );
 };

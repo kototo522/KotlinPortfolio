@@ -13,8 +13,7 @@ const headerButton = css`
     line-height: 90px;
     color: white;
     font-size: 16px;
-    background-color: transparent;
-    border: none;
+    text-decoration: none;
     &:first-child{
         height: 80px;
         margin-right:auto;
@@ -30,9 +29,9 @@ const header = () => {
     return (
         <header css={container}>
             <img css={headerButton} src="images/kotlinLogo.webp" />
-            <button css={headerButton}>Profile</button>
-            <button css={headerButton}>Skills</button>
-            <button css={headerButton}>Works</button>
+            <a href="#profile" css={headerButton}>Profile</a>
+            <a href="#skills" css={headerButton}>Skills</a>
+            <a href="#works" css={headerButton}>Works</a>
         </header >
     );
 };
