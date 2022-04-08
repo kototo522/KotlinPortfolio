@@ -44,13 +44,23 @@ const history = () => {
                         <div css={timelineContent}>2020年12月<br />ハックツハッカソン、プレシオ杯に参加</div >
                     </li >
                     <li css={point}>
+                        <div css={timelineContent}>2021年5月<br />Build@Mercari 2021に参加</div >
+                    </li >
+                    <li css={point}>
                         <div css={timelineContent}>2021年6月<br />ハックツハッカソン、ステゴカップに参加</div >
                     </li >
                     <li css={point}>
                         <div css={timelineContent}>2021年6月<br />ハックツハッカソン大反省会LT~ステゴカップ編~で登壇</div >
                     </li >
                     <li css={point}>
-                        <div css={timelineContent}>2020年9月<br />ハックツハッカソン、スピノカップに参加</div >
+                        <div css={timelineContent}>2021年9月<br />ハックツハッカソン、スピノカップに参加</div >
+                    </li >
+
+                    <li css={point}>
+                        <div css={timelineContent}>2021年12月<br />ハックツハッカソン、アンキロカップに参加</div >
+                    </li >
+                    <li css={point}>
+                        <div css={timelineContent}>2022年3月<br />ハックツハッカソン、ギガノトカップに参加</div >
                     </li >
                 </ul >
             </div>
