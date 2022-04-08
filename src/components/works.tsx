@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { css } from "@emotion/react";
-import Card from "../components/card";
+import Card from "./card";
 
 const container = css`
   margin-bottom: 80px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { useInView } from 'react-intersection-observer';
-import Kotlin from "../components/kotlin";
+import Kotlin from "./kotlin";
 import { css, keyframes } from "@emotion/react";
 
 const container = css`

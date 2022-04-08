@@ -2,11 +2,11 @@ import React from "react";
 import { css } from "@emotion/react";
 import Header from "../components/header";
 import Home from "./home";
-import Profile from "./profile";
-import History from "./history";
-import Skills from "./skills";
+import Profile from "../components/profile";
+import History from "../components/history";
+import Skills from "../components/skills";
 import Technology from "../components/technology";
-import Works from "./works";
+import Works from "../components/works";
 import Footer from "../components/footer";
 
 const title = css`
