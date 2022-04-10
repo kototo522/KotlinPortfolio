@@ -4,14 +4,17 @@ import { css } from "@emotion/react";
 import Card from "./card";
 
 const container = css`
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  &::before {
+    color: gray;
+  }
 `;
 
 export default class Works extends Component {
   render() {
     const settings = {
-      dots: true,
       arrows: true,
+      dots: true,
       infinite: true,
       centerMode: true,
       autoplay: true,
@@ -24,24 +27,8 @@ export default class Works extends Component {
     return (
       <div css={container}>
         <Slider {...settings}>
-          <figure>
-            <Card />
-          </figure>
-          <figure>
-            <Card />
-          </figure>
-          <figure>
-            <Card />
-          </figure>
-          <figure>
-            <Card />
-          </figure>
-          <figure>
-            <Card />
-          </figure>
-          <figure>
-            <Card />
-          </figure>
+          <Card />
+          <Card />
         </Slider>
       </div>
     );
