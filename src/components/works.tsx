@@ -1,18 +1,15 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 import { css } from "@emotion/react";
 import Card from "./card";
 
 const container = css`
   margin-bottom: 100px;
-  &::before {
-    color: gray;
-  }
 `;
 
 export default class Works extends Component {
   render() {
-    const settings = {
+    const settings: Settings = {
       arrows: true,
       dots: true,
       infinite: true,
@@ -20,7 +17,7 @@ export default class Works extends Component {
       autoplay: true,
       swipeToSlide: true,
       autoplaySpeed: 2000,
-      speed: 500,
+      speed: 700,
       slidesToShow: 1,
       slidesToScroll: 1,
     };

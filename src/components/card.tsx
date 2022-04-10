@@ -9,7 +9,7 @@ const container = css`
 const worksCard = css`
   height: 290px;
   width: 340px;
-  margin: 0 30px 30px 30px;
+  margin-bottom: 30px;
   border: 1px solid #494544;
 `;
 

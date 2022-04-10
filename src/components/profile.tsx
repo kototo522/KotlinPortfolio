@@ -40,6 +40,10 @@ const text = css`
   margin: 0 auto;
   line-height: 2em;
   font-size: 22px;
+  @media (max-width: 940px) {
+    padding: 0 0 10px 25px;
+    font-size: 18px;
+  }
 `;
 
 const profile = () => {

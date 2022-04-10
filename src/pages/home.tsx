@@ -21,7 +21,7 @@ const title = css`
   color: white;
   opacity: 0;
   animation: ${titleAnimetion} 0.5s ease 1s 1 normal running forwards;
-  @media (max-width: 570px) {
+  @media (max-width: 780px) {
     font-size: 36px;
   }
 `;
