@@ -28,7 +28,7 @@ const headerButton = css`
 const header = () => {
     return (
         <header css={container}>
-            <img css={headerButton} src="images/kotlinLogo.webp" />
+            <img css={headerButton} src="images/kotlinLogo.png" />
             <a href="#profile" css={headerButton}>Profile</a>
             <a href="#skills" css={headerButton}>Skills</a>
             <a href="#works" css={headerButton}>Works</a>
