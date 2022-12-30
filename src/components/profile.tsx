@@ -87,6 +87,8 @@ const profile = () => {
               <br />
               Belongs: NITKIT
               <br />
+              GitHub: https://github.com/kototo522
+              <br />
               Bob: Web{"&"}androidEngineer, Designer
               <br />
             </p>

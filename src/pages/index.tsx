@@ -40,9 +40,9 @@ const index = () => {
       <Skills />
       <Technology />
       <h1 id="works" css={title}>
-        Works
+        {/* Works */}
       </h1>
-      <Works />
+      {/* <Works /> */}
       <Footer />
     </div>
   );
