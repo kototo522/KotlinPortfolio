@@ -1,4 +1,5 @@
 import { css, keyframes } from "@emotion/react";
+import Strawberry from "../static/strawberry.webp"
 
 const background = css`
   display: flex;
@@ -7,7 +8,7 @@ const background = css`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("images/strawberry.jpg");
+  background-image: {};
 `;
 
 const titleAnimetion = keyframes`

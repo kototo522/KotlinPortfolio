@@ -37,5 +37,9 @@
       "hasSuggestions": true,
       "debug": false
     }
-  }
+  },
+  "typeRoots": [
+    "types",
+    "node_modules/@types"
+  ]
 }
