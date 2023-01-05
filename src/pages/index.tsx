@@ -14,11 +14,11 @@ const title = css`
   text-align: center;
   text-decoration: underline;
   text-decoration-color: #9c1919;
-  margin: 80px 0 60px 0;
+  padding: 80px 0 60px 0;
   font-size: 34px;
   font-weight: bold;
   @media (max-width: 700px) {
-    margin: 48px 0 30px 0;
+    padding: 48px 0 30px 0;
     font-size: 24px;
   }
 `;
