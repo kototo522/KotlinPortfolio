@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { Link } from "gatsby";
 
 const container = css`
   display: flex;
@@ -57,19 +58,19 @@ const arrow = css`
 const footer = () => {
   return (
     <footer css={container}>
-      <a href="#profile" css={text}>
+      <Link to="#profile" css={text}>
         Profile
-      </a>
-      <a href="#skills" css={text}>
+      </Link>
+      <Link to="#skills" css={text}>
         Skills
-      </a>
-      <a href="#works" css={text}>
+      </Link>
+      <Link to="#works" css={text}>
         Works
-      </a>
-      <a href="#" css={box}>
+      </Link>
+      <Link to="#" css={box}>
         <div css={arrow} />
         <p css={text}>PAGE TOP</p>
-      </a>
+      </Link>
     </footer>
   );
 };

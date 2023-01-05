@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "@emotion/react";
 import KotlinLogo from "../static/kotlinLogo.webp";
+import { Link } from "gatsby";
 
 const container = css`
     position: sticky;
@@ -30,9 +31,9 @@ const header = () => {
     return (
         <header css={container}>
             <img css={headerButton} src={KotlinLogo} />
-            <a href="#profile" css={headerButton}>Profile</a>
-            <a href="#skills" css={headerButton}>Skills</a>
-            <a href="#works" css={headerButton}>Works</a>
+            <Link to="#profile" css={headerButton}>Profile</Link>
+            <Link to="#skills" css={headerButton}>Skills</Link>
+            <Link to="#works" css={headerButton}>Works</Link>
         </header >
     );
 };
