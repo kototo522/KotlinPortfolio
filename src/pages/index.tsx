@@ -39,9 +39,9 @@ const index = () => {
       </h1>
       <Skills />
       <Technology />
-      <h1 id="works" css={title}>
-        {/* Works */}
-      </h1>
+      {/* <h1 id="works" css={title}>
+        Works
+      </h1> */}
       {/* <Works /> */}
       <Footer />
     </div>

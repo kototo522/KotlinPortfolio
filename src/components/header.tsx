@@ -36,9 +36,9 @@ const header = () => {
       <AnchorLink href="#skills" css={headerButton}>
         Skills
       </AnchorLink>
-      <AnchorLink href="#works" css={headerButton}>
+      {/* <AnchorLink href="#works" css={headerButton}>
         Works
-      </AnchorLink>
+      </AnchorLink> */}
     </header>
   );
 };
