@@ -5,6 +5,7 @@ const container = css`
   display: flex;
   height: 150px;
   width: 100vw;
+  margin-top: 100px;
   background-color: #9c1919;
   align-items: flex-end;
   @media (max-width: 700px) {
