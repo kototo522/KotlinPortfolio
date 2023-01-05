@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "@emotion/react";
 import Header from "../components/header";
+import Side from "../components/side";
 import Home from "./home";
 import Profile from "../components/profile";
 import History from "../components/history";
@@ -27,6 +28,7 @@ const index = () => {
   return (
     <div>
       <Header />
+      <Side />
       <Home />
       <h1 id="profile" css={title}>
         Profile
