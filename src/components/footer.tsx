@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { Link } from "gatsby";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const container = css`
   display: flex;
@@ -58,19 +58,19 @@ const arrow = css`
 const footer = () => {
   return (
     <footer css={container}>
-      <Link to="#profile" css={text}>
+      <AnchorLink href="#profile" css={text}>
         Profile
-      </Link>
-      <Link to="#skills" css={text}>
+      </AnchorLink>
+      <AnchorLink href="#skills" css={text}>
         Skills
-      </Link>
-      <Link to="#works" css={text}>
+      </AnchorLink>
+      <AnchorLink href="#works" css={text}>
         Works
-      </Link>
-      <Link to="#" css={box}>
+      </AnchorLink>
+      <AnchorLink href="#" css={box}>
         <div css={arrow} />
         <p css={text}>PAGE TOP</p>
-      </Link>
+      </AnchorLink>
     </footer>
   );
 };
