@@ -68,7 +68,7 @@ const footer = () => {
       {/* <AnchorLink href="#works" css={text}>
         Works
       </AnchorLink> */}
-      <AnchorLink href="#" css={box}>
+      <AnchorLink href="#portfoilo" css={box}>
         <div css={arrow} />
         <p css={text}>PAGE TOP</p>
       </AnchorLink>
