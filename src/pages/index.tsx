@@ -9,6 +9,7 @@ import Skills from "../components/skills";
 import Technology from "../components/technology";
 import Works from "../components/works";
 import Footer from "../components/footer";
+import Strawberry from "../static/strawberry.webp";
 
 const title = css`
   font-weight: lighter;
@@ -27,6 +28,20 @@ const title = css`
 const index = () => {
   return (
     <div>
+      <html lang="ja" prefix="og: http://ogp.me/ns#">
+        <meta
+          property="og:url"
+          content="https://kotlinportfolio.netlify.app/"
+        />
+        <meta property="og:title" content="ことりんぽーとふぉりお" />
+        <meta
+          property="og:description"
+          content="ことりんのポートフォリオです"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content="${Strawberry}" />
+      </html>
       <Header />
       <Side />
       <Home />
