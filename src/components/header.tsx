@@ -32,7 +32,7 @@ const header = () => {
   const [HeaderColor, setHeaderColor] = useState(beforeColor);
   window.addEventListener("scroll", function () {
     if (
-      document.body.scrollTop > document.documentElement.clientHeight ||
+      document.body.scrollTop > document.body.scrollHeight ||
       document.documentElement.scrollTop > document.documentElement.clientHeight
     ) {
       setHeaderColor(afterColor);
