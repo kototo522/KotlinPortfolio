@@ -40,7 +40,7 @@ const index = () => {
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content="${Strawberry}" />
+        <meta property="og:image" content={"${siteMetadata.siteUrl}${Strawberry}"} />
       </html>
       <Header />
       <Side />
