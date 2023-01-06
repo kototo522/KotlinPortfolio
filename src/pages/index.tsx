@@ -39,8 +39,8 @@ const index = () => {
           content="ことりんのポートフォリオです"
         />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="../static/strawberry.webp" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content={Strawberry} />
       </html>
       <Header />
       <Side />

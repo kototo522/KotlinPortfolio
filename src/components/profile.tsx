@@ -30,7 +30,6 @@ const profileCard = css`
   width: 940px;
   border: 1px solid #000000;
   box-shadow: 12px 12px 0 #9c1919;
-  animation: ${popUp} 2s ease-out both;
   @media (max-width: 940px) {
     width: calc(100% - 50px);
   }
@@ -66,7 +65,7 @@ const profile = () => {
   const d1 = today.getDate().toString().padStart(2, "0");
   const age = Math.floor((Number(y1 + m1 + d1) - Number(y2 + m2 + d2)) / 10000);
   const [ref, inView] = useInView({
-    rootMargin: "-100px",
+    rootMargin: "0px",
     triggerOnce: true,
   });
 
