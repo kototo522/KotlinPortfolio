@@ -21,16 +21,19 @@ const sideButton = css`
 
 const side = () => {
   const [GithubIcon, setGithubIcon] = useState("none");
-  window.addEventListener("scroll", function () {
-    if (
-      document.body.scrollTop > document.body.scrollHeight ||
-      document.documentElement.scrollTop > document.documentElement.clientHeight
-    ) {
-      setGithubIcon("block");
-    } else {
-      setGithubIcon("none");
-    }
-  });
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", function () {
+      if (
+        document.body.scrollTop > document.body.scrollHeight ||
+        document.documentElement.scrollTop >
+          document.documentElement.clientHeight
+      ) {
+        setGithubIcon("block");
+      } else {
+        setGithubIcon("none");
+      }
+    });
+  }
   return (
     <div css={container} style={{ display: GithubIcon }}>
       <Link to="https://github.com/kototo522" target="_blank" css={sideButton}>

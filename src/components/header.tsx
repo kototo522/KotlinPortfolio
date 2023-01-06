@@ -30,16 +30,19 @@ const header = () => {
   const beforeColor = "#ffffff";
   const afterColor = "#9c1919";
   const [HeaderColor, setHeaderColor] = useState(beforeColor);
-  window.addEventListener("scroll", function () {
-    if (
-      document.body.scrollTop > document.body.scrollHeight ||
-      document.documentElement.scrollTop > document.documentElement.clientHeight
-    ) {
-      setHeaderColor(afterColor);
-    } else {
-      setHeaderColor(beforeColor);
-    }
-  });
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", function () {
+      if (
+        document.body.scrollTop > document.body.scrollHeight ||
+        document.documentElement.scrollTop >
+          document.documentElement.clientHeight
+      ) {
+        setHeaderColor(afterColor);
+      } else {
+        setHeaderColor(beforeColor);
+      }
+    });
+  }
   return (
     <header css={container}>
       <img css={headerButton} src={KotlinLogo} />
