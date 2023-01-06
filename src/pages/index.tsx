@@ -40,7 +40,10 @@ const index = () => {
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content={"${siteMetadata.siteUrl}${Strawberry}"} />
+        <meta
+          property="og:image"
+          content={"${https://kotlinportfolio.netlify.app/}${Strawberry}"}
+        />
       </html>
       <Header />
       <Side />
