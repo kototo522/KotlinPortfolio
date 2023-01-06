@@ -8,6 +8,10 @@ const container = css`
   top: calc(50vh - 24px);
   right: 20px;
   height: 0;
+  z-index: 100;
+  @media (max-width: 420px) {
+    top: 78vh;
+  }
 `;
 
 const sideButton = css`
