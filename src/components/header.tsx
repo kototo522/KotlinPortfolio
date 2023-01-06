@@ -8,6 +8,7 @@ const container = css`
   top: 5px;
   display: flex;
   height: 0;
+  z-index: 100;
 `;
 
 const headerButton = css`

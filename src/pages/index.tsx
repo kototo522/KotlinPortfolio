@@ -27,7 +27,7 @@ const title = css`
 
 const index = () => {
   return (
-    <div>
+    <div style={{ marginTop: -8, marginLeft: -8 }}>
       <html lang="ja" prefix="og: http://ogp.me/ns#">
         <meta
           property="og:url"
