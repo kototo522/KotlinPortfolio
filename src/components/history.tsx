@@ -101,6 +101,13 @@ const history = () => {
               ハックツハッカソン、ギガノトカップに参加
             </div>
           </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年3月15日-3月28日
+              <br />
+              CA Tech Dojo -Android編- に参加
+            </div>
+          </li>
         </ul>
       </div>
     </div>
