@@ -9,7 +9,6 @@ import Skills from "../components/skills";
 import Technology from "../components/technology";
 import Works from "../components/works";
 import Footer from "../components/footer";
-import Strawberry from ".././static/strawberry.webp";
 
 const title = css`
   font-weight: lighter;
@@ -39,7 +38,7 @@ const index = () => {
           content="ことりんのポートフォリオです"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={Strawberry} />
+        <meta property="og:image" content={`.././static/strawberry.webp`} />
         <meta name="twitter:card" content="summary_large_image" />
       </html>
       <Header />
