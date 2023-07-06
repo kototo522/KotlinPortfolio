@@ -108,6 +108,13 @@ const history = () => {
               CA Tech Dojo -Android編- に参加
             </div>
           </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年6月9日-6月17日
+              <br />
+              技育CAMPキャラバン2023 Vol.2@福岡に参加．企業賞を受賞
+            </div>
+          </li>
         </ul>
       </div>
     </div>
