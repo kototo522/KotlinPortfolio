@@ -140,7 +140,7 @@ const history = () => {
             <div css={timelineContent}>
               2023年10月-
               <br />
-              カラビナテクノロジー株式会社長期インターンに参加
+              カラビナテクノロジー株式会社インターンに参加
             </div>
           </li>
         </ul>
