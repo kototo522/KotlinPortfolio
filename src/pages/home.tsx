@@ -38,7 +38,7 @@ const text = css`
 const home = () => {
   return (
     <div id="portfoilo" css={background}>
-      <h1 css={title}>Kotlin's&nbsp;Portfolio</h1>
+      <h1 css={title}>Kototo's&nbsp;Portfolio</h1>
       <h2 css={text}>Web&nbsp;{"&"}&nbsp;Android&nbsp;Engineer</h2>
     </div>
   );
