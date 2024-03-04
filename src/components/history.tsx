@@ -108,6 +108,41 @@ const history = () => {
               CA Tech Dojo -Android編- に参加
             </div>
           </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年6月9日-6月17日
+              <br />
+              技育CAMPキャラバン2023 Vol.2@福岡に参加．企業賞を受賞
+            </div>
+          </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年8月
+              <br />
+              北九州ハッカソンに参加．最優秀賞を受賞
+            </div>
+          </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年9月3日-9月15日
+              <br />
+              チームラボ株式会社サマーインターン(就業型)に参加
+            </div>
+          </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年9月
+              <br />
+              技育展決勝大会に参加．ファイナリストに選ばれました
+            </div>
+          </li>
+          <li css={point}>
+            <div css={timelineContent}>
+              2023年10月-
+              <br />
+              カラビナテクノロジー株式会社インターンに参加
+            </div>
+          </li>
         </ul>
       </div>
     </div>
