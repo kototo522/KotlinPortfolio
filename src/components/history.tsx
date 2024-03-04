@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import timelineData from "../string/history.json";
 
 const timelineBox = css`
   display: flex;
@@ -37,119 +38,18 @@ const history = () => {
     <div>
       <div css={timelineBox}>
         <ul css={timeline}>
-          <li css={point}>
-            <div css={timelineContent}>
-              2020年4月
-              <br />
-              北九州工業高等専門学校入学
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2020年7月
-              <br />
-              コンピュータ研究部に入部
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2020年12月
-              <br />
-              ハックツハッカソン、プレシオ杯に参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2021年5月
-              <br />
-              Build@Mercari 2021に参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2021年6月
-              <br />
-              ハックツハッカソン、ステゴカップに参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2021年6月
-              <br />
-              ハックツハッカソン大反省会LT~ステゴカップ編~で登壇
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2021年9月
-              <br />
-              ハックツハッカソン、スピノカップに参加
-            </div>
-          </li>
-
-          <li css={point}>
-            <div css={timelineContent}>
-              2021年12月
-              <br />
-              ハックツハッカソン、アンキロカップに参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2022年3月
-              <br />
-              ハックツハッカソン、ギガノトカップに参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年3月15日-3月28日
-              <br />
-              CA Tech Dojo -Android編- に参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年6月9日-6月17日
-              <br />
-              技育CAMPキャラバン2023 Vol.2@福岡に参加．企業賞を受賞
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年8月
-              <br />
-              北九州ハッカソンに参加．最優秀賞を受賞
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年9月3日-9月15日
-              <br />
-              チームラボ株式会社サマーインターン(就業型)に参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年9月
-              <br />
-              技育展決勝大会に参加．ファイナリストに選ばれました
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年10月-1月
-              <br />
-              カラビナテクノロジー株式会社インターンに参加
-            </div>
-          </li>
-          <li css={point}>
-            <div css={timelineContent}>
-              2023年3月
-              <br />
-              株式会社サイバーエージェント．1ヶ月の就業型インターンに参加
-            </div>
-          </li>
+          {Object.keys(timelineData).map((key) => {
+            const event = timelineData[key];
+            return (
+              <li key={key} css={point}>
+                <div css={timelineContent}>
+                  {event.TERM}
+                  <br />
+                  {event.TEXT}
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>
